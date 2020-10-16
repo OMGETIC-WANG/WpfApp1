@@ -27,6 +27,7 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            textblock1.Text = "Hello,world";
             MessageBox.Show(
                 "Hello,WPF",
                 "Message from application");
